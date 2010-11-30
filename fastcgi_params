@@ -1,4 +1,4 @@
-
+B83;40003;0c
 ##
 ## Fastcgi Params for PHP + Nginx
 ##
@@ -47,4 +47,8 @@ fastcgi_param REQUEST_URI
     "$request_uri";
 fastcgi_param SCRIPT_NAME
     "$fastcgi_script_name";
+fastcgi_param CONTENT_TYPE
+    "$content_type";
+fastcgi_param CONTENT_LENGTH
+    "$content_length";
 
